@@ -263,7 +263,7 @@ This package provides a PulseAudio implementation based on PipeWire
 %endif
 
 %prep
-%setup -q -T -b0 -n %{name}-${version}
+%setup -q -T -b0 -n %{name}-%{version}
 
 %build
 %meson \

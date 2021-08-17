@@ -36,7 +36,7 @@
 Name:           pipewire
 Summary:        Media Sharing Server
 Version:        %{majorversion}.%{minorversion}.%{microversion}
-Release:        %(date +%%y%%m%%d)%{?dist}
+Release:        %{?dist}
 License:        MIT
 URL:            https://pipewire.org/
 Source0:	      https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/%{version}/pipewire-%{version}.tar.gz
